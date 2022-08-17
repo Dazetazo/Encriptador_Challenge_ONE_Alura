@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CHALLENGE ONE ENCRIPTADOR</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="/scripts/style.css" />
+    <script src="scripts/funcion.js"></script>
+  </head>
+  <body>
+    <nav>
+      <p>Alura Challenge One - Creado por Diego Valenzuela</p>
+    </nav>
+
+    <div class="container">
+      <div class="cajaEncriptar">
+        <textarea
+          class="textoEntrada"
+          placeholder="Ingrese el texto aquí"
+          id="txt"
+        ></textarea>
+
+        <div class="botones">
+          <button id="encriptar" onclick="palabraEncriptada()">
+            Encriptar
+          </button>
+          <button id="desencriptar" onclick="palabraDesencriptada()">
+            Desencriptar
+          </button>
+        </div>
+      </div>
+
+      <div class="cajaDesencriptar">
+        <div class="sinTexto" id="texto">
+          <h3>Ningun mensaje fue encontrado</h3>
+          <br />
+          <p>Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+      </div>
+    </div>
+    <button class="textocopy" onclick="copiar()">Copiar</button>
+
+    <footer>
+      <div><p>Diego Valenzuela ©</p></div>
+      <div>
+        <a target="_blank" href="https://github.com/Dazetazo"
+          ><img src="assets/github.png"
+        /></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/diego-valenzuela-gonzález/"
+          ><img src="assets/linkedin.png"
+        /></a>
+      </div>
+    </footer>
+  </body>
+  <link
+    href="https://fonts.googleapis.com/css?family=Allura"
+    rel="stylesheet"
+  />
+</html>
